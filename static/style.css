@@ -1,0 +1,18 @@
+html,body
+{
+    margin :0;
+    padding: 0;
+    height:100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container
+{
+    height: 100%;
+    min-height: 100%;
+    background-color: #f9f7f5;
+    padding: 0.5%;
+}
+#container #heading
+{
+    text-align: center;
+}
