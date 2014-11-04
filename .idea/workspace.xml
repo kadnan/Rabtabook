@@ -2,34 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad32dd69-109e-44e3-be7f-a1f975f47144" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Rabtabook.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Rabtabook.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/layout.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/other.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/testrunner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/view.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/__init__.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/app/templates/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/layout.html" afterPath="$PROJECT_DIR$/app/templates/layout.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/view.html" afterPath="$PROJECT_DIR$/app/templates/view.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rabtabook.py" afterPath="$PROJECT_DIR$/Rabtabook.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Rabtabook.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="ad32dd69-109e-44e3-be7f-a1f975f47144" time="1415024326085" ignored="false" />
-    <file path="/Rabtabook.py" changelist="ad32dd69-109e-44e3-be7f-a1f975f47144" time="1415043034291" ignored="false" />
+    <file path="/Dummy.txt" changelist="ad32dd69-109e-44e3-be7f-a1f975f47144" time="1415071429282" ignored="false" />
+    <file path="/Rabtabook.py" changelist="ad32dd69-109e-44e3-be7f-a1f975f47144" time="1415091027141" ignored="false" />
     <file path="/layout.html" changelist="ad32dd69-109e-44e3-be7f-a1f975f47144" time="1415037362718" ignored="false" />
     <file path="/index.html" changelist="ad32dd69-109e-44e3-be7f-a1f975f47144" time="1415040253589" ignored="false" />
     <file path="/style.css" changelist="ad32dd69-109e-44e3-be7f-a1f975f47144" time="1415034520959" ignored="false" />
-    <file path="/view.html" changelist="ad32dd69-109e-44e3-be7f-a1f975f47144" time="1415041389660" ignored="false" />
-    <file path="/__init__.py" changelist="ad32dd69-109e-44e3-be7f-a1f975f47144" time="1415042303978" ignored="false" />
+    <file path="/view.html" changelist="ad32dd69-109e-44e3-be7f-a1f975f47144" time="1415098593090" ignored="false" />
+    <file path="/__init__.py" changelist="ad32dd69-109e-44e3-be7f-a1f975f47144" time="1415093027709" ignored="false" />
     <file path="/README.md" changelist="ad32dd69-109e-44e3-be7f-a1f975f47144" time="1415043079651" ignored="false" />
+    <file path="/config.py" changelist="ad32dd69-109e-44e3-be7f-a1f975f47144" time="1415085303895" ignored="false" />
+    <file path="/models.py" changelist="ad32dd69-109e-44e3-be7f-a1f975f47144" time="1415097209676" ignored="false" />
+    <file path="/manage.py" changelist="ad32dd69-109e-44e3-be7f-a1f975f47144" time="1415092574780" ignored="false" />
+    <file path="/run.py" changelist="ad32dd69-109e-44e3-be7f-a1f975f47144" time="1415093591215" ignored="false" />
+    <file path="/Python Console" changelist="ad32dd69-109e-44e3-be7f-a1f975f47144" time="1415098291239" ignored="false" />
+    <file path="/views.py" changelist="ad32dd69-109e-44e3-be7f-a1f975f47144" time="1415098721732" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,57 +47,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Rabtabook.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Rabtabook.py">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="35" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.0">
+            <state line="16" column="0" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#0#117#0" expanded="true" />
+                <element signature="e#0#50#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.08356546">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="12" selection-start="52" selection-end="794" vertical-scroll-proportion="-9.478261">
+            <state line="15" column="0" selection-start="615" selection-end="615" vertical-scroll-proportion="0.62674093">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="view.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/view.html">
+        <entry file="file://$PROJECT_DIR$/app/templates/view.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="14" selection-start="62" selection-end="62" vertical-scroll-proportion="-1.3043479">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="43" selection-start="0" selection-end="67" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
+            <state line="16" column="109" selection-start="524" selection-end="524" vertical-scroll-proportion="-4.826087">
               <folding />
             </state>
           </provider>
@@ -123,13 +94,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/static/style.css" />
-        <option value="$PROJECT_DIR$/templates/layout.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/view.html" />
-        <option value="$PROJECT_DIR$/__init__.py" />
-        <option value="$PROJECT_DIR$/Rabtabook.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/views.py" />
+        <option value="$PROJECT_DIR$/Rabtabook.py" />
+        <option value="$PROJECT_DIR$/manage.py" />
+        <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/models.py" />
+        <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/app/__init__.py" />
+        <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/db_create.py" />
+        <option value="$PROJECT_DIR$/app/models.py" />
+        <option value="$PROJECT_DIR$/app/templates/index.html" />
+        <option value="$PROJECT_DIR$/app/templates/view.html" />
+        <option value="$PROJECT_DIR$/app/views.py" />
       </list>
     </option>
   </component>
@@ -192,7 +172,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
+              <option name="myItemId" value="db_repository" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -206,7 +186,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
+              <option name="myItemId" value="db_repository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="versions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rabtabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rabtabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rabtabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Rabtabook" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -218,12 +234,12 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -233,7 +249,88 @@
       <PyConsoleSettings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.Rabtabook">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.db_migrate">
+    <configuration default="false" name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Rabtabook" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manage.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="run" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Rabtabook" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="db_create" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Rabtabook" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/db_create.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="db_migrate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Rabtabook" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/db_migrate.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -294,6 +391,13 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <configuration default="false" name="Rabtabook" type="PythonConfigurationType" factoryName="Python" singleton="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -313,9 +417,21 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.Rabtabook" />
+      <item index="1" class="java.lang.String" itemvalue="Python.manage" />
+      <item index="2" class="java.lang.String" itemvalue="Python.run" />
+      <item index="3" class="java.lang.String" itemvalue="Python.db_create" />
+      <item index="4" class="java.lang.String" itemvalue="Python.db_migrate" />
     </list>
+    <recent_temporary>
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.run" />
+        <item index="1" class="java.lang.String" itemvalue="Python.db_migrate" />
+        <item index="2" class="java.lang.String" itemvalue="Python.db_create" />
+        <item index="3" class="java.lang.String" itemvalue="Python.manage" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
@@ -332,9 +448,10 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928944" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25364667" sideWeight="0.67071056" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25769854" sideWeight="0.67071056" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -343,7 +460,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -410,33 +526,51 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Rabtabook.py">
+    <entry file="file://$PROJECT_DIR$/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="152" selection-end="152" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#117#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/layout.html">
+    <entry file="file://$PROJECT_DIR$/app/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="0.17857143">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_downgrade.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="12" selection-start="52" selection-end="794" vertical-scroll-proportion="-9.478261">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/view.html">
+    <entry file="file://$PROJECT_DIR$/db_repository/versions/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="14" selection-start="62" selection-end="62" vertical-scroll-proportion="-1.3043479">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_create.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="61" selection-start="516" selection-end="516" vertical-scroll-proportion="0.5013928">
+          <folding>
+            <element signature="e#19#53#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -447,25 +581,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/__init__.py">
+    <entry file="file://$PROJECT_DIR$/db_repository/migrate.cfg">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="43" selection-start="0" selection-end="67" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_repository/versions/003_migration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="105" selection-start="495" selection-end="495" vertical-scroll-proportion="0.65015477">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="19" selection-start="58" selection-end="58" vertical-scroll-proportion="0.08356546">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Rabtabook.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="35" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.0">
+        <state line="41" column="27" selection-start="851" selection-end="851" vertical-scroll-proportion="1.5041783">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/view.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="109" selection-start="524" selection-end="524" vertical-scroll-proportion="-4.826087">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#117#0" expanded="true" />
+            <element signature="e#0#50#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/db_migrate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="20" selection-end="20" vertical-scroll-proportion="0.08356546">
+        <state line="19" column="0" selection-start="937" selection-end="937" vertical-scroll-proportion="0.62674093">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="615" selection-end="615" vertical-scroll-proportion="0.62674093">
           <folding />
         </state>
       </provider>

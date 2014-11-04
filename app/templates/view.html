@@ -14,7 +14,7 @@
             for contact in contacts
         %}
             <tr align=center>
-                <td><a href="{{ url_for('view',id=contact.id) }}">{{ contact.first_name + ' '+contact.last_name }}</a></td>
+                <td><a href="{{ url_for('view',id=contact.id) }}">{{ contact.firstname + ' '+contact.lastname }}</a></td>
                 <td>{{ contact.address }}</td>
                 <td>{{ contact.phone }}</td>
                 <td>{{ contact.mobile }}</td>
