@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+{% block content %}
+    <form method="post" action="{{ url_for('add') }}">
+        <label>
+            First Name
+            <input type="text" id="first_name" name="first_name" value="" />
+        </label>
+        <label>
+            Last Name
+            <input type="text" id="last_name" name="last_name" value="" />
+        </label>
+        <label>
+            Phone
+            <input type="text" id="phone" name="phone" value="" />
+        </label>
+        <label>
+            Mobile
+            <input type="text" id="mobile" name="mobile" value="" />
+        </label>
+        <label>
+            Address
+            <input type="text" id="address" name="address" value="" />
+        </label>
+        <label>
+            City
+            <input type="text" id="city" name="city" value="" />
+        </label>
+        <label>
+            Country
+            <input type="text" id="country" name="country" value="" />
+        </label>
+            <input type="submit" value="Submit" />
+
+    </form>
+{% endblock %}
