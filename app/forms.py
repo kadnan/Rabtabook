@@ -11,4 +11,3 @@ class add_contact(Form):
     address = StringField('address', validators=[DataRequired()])
     city = StringField('city', validators=[DataRequired()])
     country = StringField('country', validators=[DataRequired()])
-    #remember_me = BooleanField('remember_me', default=False)
